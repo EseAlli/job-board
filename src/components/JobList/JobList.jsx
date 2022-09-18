@@ -27,7 +27,7 @@ const JobList = () => {
                 type={job.type}
                 url={job.url}
                 company={job.company}
-                experience={job.Experience}
+                experience={job.experience}
                 image={job.company_image}
               />
             );
