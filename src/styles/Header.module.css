@@ -1,19 +1,11 @@
 .image_wrapper {
   box-sizing: content-box;
-}
-
-.image_wrapper:nth-child(1) {
   animation: scroll 2s forwards;
 }
 
 .image_wrapper2 {
   animation: scroll 3s forwards;
 }
-
-/* .image_wrapper > span > span > img {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  border-radius: 5px;
-} */
 
 @keyframes scroll {
   0% {
@@ -24,5 +16,12 @@
   }
   100% {
     left: translate(900px);
+  }
+}
+
+@media (max-width: 600px) {
+  .image_wrapper > span > span > img {
+    height: 20px;
+    width: 20px;
   }
 }
