@@ -4,20 +4,20 @@ import styles from "../../styles/Header.module.css";
 
 const Header = () => {
   return (
-    <div className="container mx-auto my-12 md:my-4">
+    <div className="container mx-auto my-12 md:my-4 overflow-hidden">
       <div className="flex flex-col md:flex-row sm:flex-wrap lg:flex-nowrap w-full">
         <div
           className={`${styles.image_wrapper} flex flex-wrap justify-center md:justify-between order-2 md:order-1 w-full lg:w-auto`}
         >
           <Image
             src="https://joeschmoe.io/api/v1/jess"
-            width={300}
-            height={350}
+            width={200}
+            height={250}
           />
           <Image
             src="https://joeschmoe.io/api/v1/joe"
-            width={300}
-            height={350}
+            width={200}
+            height={250}
           />
         </div>
         <div className="flex flex-col items-center justify-center text-center mx-auto order-1 md:order-2">
@@ -34,13 +34,13 @@ const Header = () => {
         >
           <Image
             src="https://joeschmoe.io/api/v1/jon"
-            width={300}
-            height={350}
+            width={200}
+            height={250}
           />
           <Image
             src="https://joeschmoe.io/api/v1/jeane"
-            width={300}
-            height={350}
+            width={200}
+            height={250}
           />
         </div>
       </div>
