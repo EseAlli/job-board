@@ -3,6 +3,7 @@ import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import Navbar from "../components/Navbar/Navbar";
 import Header from "../components/Header/Header";
+import JobList from "../components/JobList/JobList";
 
 export default function Home() {
   return (
@@ -13,9 +14,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-        <Navbar />
-        <Header/>
-     
+      <Navbar />
+      <Header />
+      <JobList />
     </div>
   );
 }
